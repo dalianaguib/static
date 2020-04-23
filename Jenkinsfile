@@ -14,7 +14,7 @@ pipeline{
                 '''
                 
                 withAWS(credentials:'aws-static') {
-       s3Upload(file:'index.html', bucket:'jenkinsproject3', path:'index.html')
+       s3Upload(file:'index.html', bucket:'jenkinsprojectnew', path:'index.html')
 }
             }
         }
